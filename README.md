@@ -14,7 +14,6 @@ The project covers the complete deep learning workflow, including dataset explor
 - [Models Implemented](#models-implemented)
 - [Image Preprocessing](#image-preprocessing)
 - [Model Training and Evaluation](#model-training-and-evaluation)
-- [Project Structure](#project-structure)
 - [Installation and Setup](#installation-and-setup)
 - [How to Run](#how-to-run)
 - [Making Predictions](#making-predictions)
@@ -220,31 +219,6 @@ The following table can be completed after running the notebook and recording th
 
 No numerical performance results are stated here because the actual execution results must be measured and verified.
 
-## Project Structure
-
-A recommended GitHub repository structure is:
-
-```text
-sign-language-recognition-cnn-mobilenetv2/
-│
-├── Sing_laguage_CNN_Mobilenet.ipynb
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── models/
-│   ├── model_sing_language_CNN.keras
-│   └── model_sing_language_mobilenetv2.keras
-│
-├── results/
-│   ├── cnn_training_curves.png
-│   ├── cnn_confusion_matrix.png
-│   └── mobilenetv2_confusion_matrix.png
-│
-└── LICENSE
-```
-
-**Important:** The structure above is a recommended layout, not a claim that every file already exists. Add the `models/` and `results/` files only if you choose to export and commit those artifacts. The notebook can be kept at the repository root or moved into a dedicated `notebooks/` directory.
 
 ## Installation and Setup
 
